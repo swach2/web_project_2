@@ -14,6 +14,44 @@
     min-height: 600px;
     max-height: 756px;
     /* parameters for the header section */
+    position: relative;
+}
+
+.header__logo {
+    width: 154px;
+    height: 31px;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+}
+
+.header__title {
+    width: 730px;
+    flex: auto;
+    margin-left: 64px;
+}
+
+.header__subtitle {
+    width: 388px;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+}
+
+.header__main-illustration{
+    width: 765px;
+    height: 608px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.header__square-pic {
+    width: 568px;
+    height: 568px;
+    position: absolute;
+    top: 64px;
+    right: 0;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
