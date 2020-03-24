@@ -29,6 +29,9 @@
     width: 730px;
     display: flex;
     margin-left: 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
 }
 
 .header__subtitle {
@@ -36,6 +39,9 @@
     position: absolute;
     bottom: 30px;
     left: 64px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .header__main-illustration{
