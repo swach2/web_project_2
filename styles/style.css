@@ -23,6 +23,7 @@
     position: absolute;
     top: 30px;
     left: 64px;
+    z-index: 1;
 }
 
 .header__title {
@@ -32,6 +33,7 @@
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
+    z-index: 2;
 }
 
 .header__subtitle {
@@ -42,6 +44,7 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    z-index: 5;
 }
 
 .header__main-illustration{
@@ -50,6 +53,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    z-index: 4;
 }
 
 .header__square-pic {
@@ -59,6 +63,7 @@
     top: 64px;
     right: 0;
     background-color: #2F80ED;
+    z-index: 3;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
