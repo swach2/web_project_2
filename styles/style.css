@@ -52,6 +52,7 @@
     position: absolute;
     top: 64px;
     right: 0;
+    background-color: #2F80ED;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
