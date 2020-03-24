@@ -16,6 +16,7 @@
     /* parameters for the header section */
     position: relative;
     display: flex;
+    background-color: #F2F2F2;
 }
 
 .logo_place_header {
@@ -51,6 +52,7 @@
 
 .header__link {
     text-decoration: none;
+    color: #2F80ED;
 }
 
 .header__main-illustration{
