@@ -17,7 +17,7 @@
     position: relative;
 }
 
-.header__logo {
+.logo_place_header {
     width: 154px;
     height: 31px;
     position: absolute;
@@ -56,20 +56,15 @@
     z-index: 4;
 }
 
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
-    width: 568px;
+    background-color: #2F80ED;
     height: 568px;
+    width: 568px;
     position: absolute;
     top: 64px;
     right: 0;
-    background-color: #2F80ED;
     z-index: 3;
-}
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-    height: 568px;
-    width: 568px;
 }
 
 /* including elements with key-value modifiers */
