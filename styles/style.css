@@ -126,6 +126,7 @@
 
 .digits {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .section-title {
@@ -183,4 +184,53 @@
 .break {
     flex-basis: 100%;
     height: 0;
+}
+
+.feynman {
+    height: 790px;
+    position: relative;
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.feynman__title {
+    width: 775px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    line-height: 1.15;
+    font-size:  120px;
+    font-weight: bold;
+}
+
+.feynman__subtitle {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feynman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color:  #000000;
+    z-index: 2;
+}
+
+.feynman__image {
+    width: 867px;
+    height: 637px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
