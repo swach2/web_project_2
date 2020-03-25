@@ -308,5 +308,5 @@
     top: 0;
     right: -210px;
     z-index: 1;
-    transform: scaleX(-1);
+    transform: rotate(20deg);
 }
