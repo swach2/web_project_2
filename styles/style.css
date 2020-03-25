@@ -189,26 +189,30 @@
 .feynman {
     height: 790px;
     position: relative;
-    display: flex;
     background-color: #F2F2F2;
+    padding-top: 100px;
 }
 
 .feynman__title {
     width: 775px;
-    top: 100px;
+    margin: auto;
+    position: relative;
     display: flex;
     justify-content: center;
-    z-index: 3;
+    padding-bottom: 70px;
+    z-index: 2;
     line-height: 1.15;
     font-size:  120px;
     font-weight: bold;
+    text-align: center;
 }
 
 .feynman__subtitle {
-    padding-top: 70px;
+    margin: auto;
+    position: relative;
     display: flex;
     justify-content: center;
-    z-index: 3;
+    z-index: 2;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
