@@ -25,7 +25,7 @@
     position: absolute;
     top: 30px;
     left: 64px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .header__title {
@@ -36,7 +36,7 @@
     line-height: 96px;
     font-size: 102px;
     font-weight: bold;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header__subtitle {
@@ -47,7 +47,7 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
-    z-index: 5;
+    z-index: 3;
 }
 
 .header__link {
@@ -61,7 +61,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 4;
+    z-index: 2;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -72,7 +72,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .description {
