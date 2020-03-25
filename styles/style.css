@@ -237,6 +237,7 @@
     padding-bottom: 90px;
     background-color: #1F1F1F;
     overflow: hidden;
+    position: relative;
 }
 
 .section-title_theme_dark {
@@ -304,6 +305,7 @@
     width: 877px;
     height: 877px;
     position: absolute;
+    top: 0;
     right: -210px;
     z-index: 1;
     transform: scaleX(-1);
