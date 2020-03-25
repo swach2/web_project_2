@@ -348,6 +348,7 @@
     font-weight: normal;
     position: absolute;
     bottom: 40px;
+    color: #4f4f4f;
 }
 
 .footer__column-heading {
@@ -376,7 +377,7 @@
 }
 
 .footer__column-link {
-    color: white;
+    color: #4f4f4f;
     text-decoration: none;
 }
 
