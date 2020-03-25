@@ -156,7 +156,8 @@
     margin: auto;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap
 }
 
 .table__cell {
@@ -176,4 +177,10 @@
     font-size: 18px;
     font-weight: normal;
     padding-top: 20px;
+    margin: 0;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
