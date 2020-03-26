@@ -30,6 +30,7 @@
 
 .header__title {
     width: 730px;
+    position: relative;
     align-self: center;
     margin-left: 64px;
     line-height: 96px;
@@ -85,7 +86,6 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
 }
 
 .two-columns__brief {
@@ -126,7 +126,6 @@
 .section-title {
     width: 60%;
     margin: auto;
-    position: relative;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -139,7 +138,6 @@
 .section-subtitle {
     width: 60%;
     margin: auto;
-    position: relative;
     display: flex;
     justify-content: center;
     line-height: 34px;
