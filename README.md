@@ -1,3 +1,3 @@
-# Project 2
+# Practicum by Yandex - Project 2
 ## Advanced HTML & CSS
 ------
