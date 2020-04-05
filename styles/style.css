@@ -130,6 +130,55 @@
     font-weight: bold;
 }
 
+/** techniques section **/
+.techniques {
+    padding-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    width: 920px;
+    margin: auto;
+    padding-left: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards__item {
+    width: 240px;
+    padding-top: 60px;
+    padding-right: 100px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.cards__image {
+    width: 160px;
+    height: 160px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.cards__title {
+    padding-top: 43px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cards__description {
+    padding-top: 16px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
 /** digits section **/
 .digits {
     padding-top: 100px;
