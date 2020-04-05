@@ -191,10 +191,19 @@
 
 .video__iframe {
     margin-right: 20px;
+    z-index: 1;
 }
 
 .video__iframe:last-of-type {
     margin-right: 0;
+}
+
+/** oakley section **/
+.oakley {
+    padding-top: 160px;
+    padding-bottom: 80px;
+    background-color: #F2F2F2;
+    transform: translateY(-60px);
 }
 
 /** digits section **/
