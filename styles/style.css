@@ -17,6 +17,7 @@
     position: relative;
     display: flex;
     background-color: #F2F2F2;
+    overflow: hidden;
 }
 
 .logo {
@@ -76,6 +77,12 @@
     top: 64px;
     right: 0;
     z-index: 1;
+    transform: rotate(45deg);
+}
+
+.rotation__square-pic {
+    transform: rotate(360deg);
+    transition: transform 20s
 }
 
 /** description section **/
