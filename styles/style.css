@@ -222,6 +222,7 @@
     font-size: 60px;
     text-align: center;
     font-weight: bold;
+    z-index: 2;
 }
 
 .section-subtitle {
@@ -358,6 +359,11 @@
     z-index: 1;
 }
 
+.rotation__kaufman__triangle {
+    transform: rotate(360deg);
+    transition: transform 20s
+}
+
 /** kahn section **/
 .kahn {
   background-color: #F2F2F2;
@@ -426,6 +432,23 @@
     color: #2F80ED;
     position: absolute;
     transform: translateX(20px);
+}
+
+/** resources section **/
+.resources {
+    padding-top: 100px;
+    padding-bottom: 217px;
+}
+
+.resources__logo-zone {
+    padding-top: 80px;
+    width: 1100px;
+    margin: auto;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
 }
 
 /** footer **/
