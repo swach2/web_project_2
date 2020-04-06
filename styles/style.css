@@ -344,10 +344,14 @@
 
 .section-title_theme_dark {
     color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .section-subtitle_theme_dark {
     color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .table_theme_dark {
