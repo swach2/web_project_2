@@ -67,6 +67,11 @@
 .header__link {
     text-decoration: none;
     color: #2F80ED;
+    transition: opacity .2s ease-in-out
+}
+
+.header__link:hover {
+    opacity: 0.5;
 }
 
 .header__main-illustration{
@@ -321,7 +326,12 @@
     text-decoration: none;
     color:  #000000;
     z-index: 2;
-}
+    transition: opacity .2s ease-in-out
+    }
+
+.feynman__link:hover {
+        opacity: 0.5;
+    }
 
 /** kaufman section **/
 .kaufman {
@@ -439,6 +449,11 @@
     color: #2F80ED;
     position: absolute;
     transform: translateX(20px);
+    transition: opacity .2s ease-in-out
+}
+
+.kahn__buy-link:hover {
+    opacity: 0.5;
 }
 
 /** resources section **/
@@ -510,12 +525,6 @@
     font-size: 18px;
     font-weight: normal;
     padding-left: 0;
-}
-
-.footer__column_links {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
     padding-top: 20px;
     padding-bottom: 16px;
     margin: 0;
@@ -525,6 +534,11 @@
 .footer__column_link {
     color: #4f4f4f;
     text-decoration: none;
+    transition: opacity .2s ease-in-out
+}
+
+.footer__column_link:hover {
+    opacity: 0.5;
 }
 
 .footer__social_icon {
