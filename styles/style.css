@@ -211,7 +211,7 @@
     padding-top: 160px;
     padding-bottom: 80px;
     background-color: #F2F2F2;
-    transform: translateY(-60px);
+    transform: translateY(-50px);
 }
 
 /** digits section **/
@@ -226,7 +226,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    line-height: 69px;
+    line-height: 1.15;
     font-size: 60px;
     text-align: center;
     font-weight: bold;
@@ -283,7 +283,7 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 867px 637px;
-    margin-top: -60px;
+    margin-top: -50px;
 }
 
 .feynman__title {
