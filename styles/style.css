@@ -94,7 +94,7 @@
     transform: rotate(45deg);
 }
 
-.rotation__square-pic {
+.rotation {
     animation: rotation 20s linear infinite;
 }
 
@@ -375,10 +375,6 @@
     top: 0;
     right: -210px;
     z-index: 1;
-}
-
-.rotation__kaufman__triangle {
-    animation: rotation 20s linear infinite;
 }
 
 /** kahn section **/
