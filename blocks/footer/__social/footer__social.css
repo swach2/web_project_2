@@ -1,1 +1,5 @@
-@import url(./_icon/footer__social_icon.css);
+.footer__social-icon {
+    height: 16px;
+    width: 16px;
+    padding-right: 10px;
+}

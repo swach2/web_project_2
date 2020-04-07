@@ -1,6 +1,5 @@
 .table__cell_theme_dark {
-    width: 200px;
-    margin-right: 0;
-    margin-top: 80px;
-    list-style-type: none;
+    width: 200px !important;
+    margin-right: 0 !important;
+    margin-top: 80px !important;
 }
